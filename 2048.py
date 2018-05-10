@@ -258,6 +258,7 @@ def main():
 
 if __name__ == "__main__":
     pygame.init()
+    pygame.mixer.quit()
     pygame.display.set_caption('2048')
     screen = pygame.display.set_mode(SIZE)
     clock = pygame.time.Clock()
